@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView android:id="@+id/welcomeMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the BGS Earthquake Application"/>
+
+    <TextView
+        android:id="@+id/acknowledgement"
+        android:layout_below="@+id/welcomeMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Contains British Geological Survey materials ©NERC 2019"/>
+
+    <TextView
+        android:id="@+id/earthquakeDataDisplay"
+        android:layout_below="@+id/acknowledgement"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Earthquake Data is Displayed below, tap on an entry to view more details about it."/>
+
+    <Button
+        android:id="@+id/displaySearchPage"
+        android:layout_below="@+id/earthquakeDataDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tap Here to Search Earthquakes" />
+
+    <TextView
+        android:id="@+id/text_view_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@+id/displaySearchPage"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    </ListView>
+
+</RelativeLayout>

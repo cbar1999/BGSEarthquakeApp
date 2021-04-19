@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BGSEarthquakeApp</string>
+    <string-array name="magnitudes_array">
+        <item>M 0.0</item>
+        <item>M 0.1</item>
+        <item>M 0.2</item>
+        <item>M 0.3</item>
+        <item>M 0.4</item>
+        <item>M 0.5</item>
+        <item>M 0.6</item>
+        <item>M 0.7</item>
+        <item>M 0.8</item>
+        <item>M 0.9</item>
+        <item>M 1.0</item>
+        <item>M 1.1</item>
+        <item>M 1.2</item>
+        <item>M 1.3</item>
+        <item>M 1.4</item>
+        <item>M 1.5</item>
+        <item>M 1.6</item>
+        <item>M 1.7</item>
+        <item>M 1.8</item>
+        <item>M 1.9</item>
+        <item>M 2.0</item>
+        <item>M 2.1</item>
+        <item>M 2.2</item>
+        <item>M 2.3</item>
+        <item>M 2.4</item>
+        <item>M 2.5</item>
+        <item>M 2.6</item>
+        <item>M 2.7</item>
+        <item>M 2.8</item>
+        <item>M 2.9</item>
+    </string-array>
+</resources>
